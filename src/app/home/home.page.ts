@@ -8,5 +8,5 @@ import { AppStateService } from '../app-state.service';
 })
 export class HomePage {
 
-  constructor(private appStateSvc: AppStateService) {}
+  constructor(public appStateSvc: AppStateService) {}
 }

@@ -33,7 +33,7 @@ export class ListPage implements OnInit {
   public items: any[] = [];
 
 
-  constructor(private planetSvc: SwapiService, private appStateSvc: AppStateService) {
+  constructor(private planetSvc: SwapiService, public appStateSvc: AppStateService) {
 
     /*
     for (let i = 1; i < 11; i++) {
